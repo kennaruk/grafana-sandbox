@@ -3,7 +3,7 @@ services:
   pragma_grafana:
     image: grafana/grafana:5.3.2
     ports:
-      - 8000:3000
+      - 3000:3000
     volumes:
       - .docker/grafana/grafana.ini:/etc/grafana/grafana.ini
     container_name: pragma-grafana
